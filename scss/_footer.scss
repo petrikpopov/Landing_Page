@@ -1,0 +1,46 @@
+.footer-wrapper{
+    margin: 120px 80px;
+}
+
+.top-footer{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.wrapper-logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.site{
+    color: #36485C;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+.right-columns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.column-1, .column-2,
+.column-3, .column-4{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.down-footer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 104px;
+    margin-bottom: 56px;
+}
+
+.right-reference{
+    display: flex;
+    gap: 56px;
+}
